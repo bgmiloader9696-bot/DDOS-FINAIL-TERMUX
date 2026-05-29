@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: trx-ddos-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: TOKEN
+        value: 8941070109:AAEwpmPpI5EIonKKwElvB-R1a8HwSXWb_6I

@@ -1,0 +1,32 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Data files
+data.json
+*.db
+*.sqlite3
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Railway/Render
+.railway/
